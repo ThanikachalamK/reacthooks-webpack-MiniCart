@@ -2,6 +2,8 @@
 
 This is a simple ReactJS frontend application demonstrating Mini-Cart Application.
 
+<img width="960" alt="Capture" src="https://user-images.githubusercontent.com/53549272/150697472-76f2357d-3905-45b2-b588-b7762033cb6f.PNG">
+
 ## Tools & Libraries used
 
 - [JavaScript](https://www.javascript.com/)

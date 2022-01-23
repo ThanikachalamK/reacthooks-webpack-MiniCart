@@ -1,21 +1,19 @@
 const isProd = String(process.env.NODE_ENV).toLowerCase() === 'production'
 
 function getServerConfiguration() {
-	if(isProd) {
-		return {
-			baseURL: 'https://api.spacexdata.com/v4/', // Prod Service Domain URL
-		}
-	}
-	
-	return {
-		baseURL: 'https://api.spacexdata.com/v4/', // Dev Service Domain URL
-	}
-	
+  if (isProd) {
+    return {
+      baseURL: 'https://dnc0cmt2n557n.cloudfront.net/', // Prod Service Domain URL
+    }
+  }
 
+  return {
+    baseURL: 'https://dnc0cmt2n557n.cloudfront.net/', // Dev Service Domain URL
+  }
 }
 
 const serverConfig = getServerConfiguration()
 
 export default {
-	serverConfig
+  serverConfig,
 }

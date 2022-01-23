@@ -122,4 +122,3 @@ ErrorBoundary.propTypes = {
 }
 
 export default ErrorBoundary
-

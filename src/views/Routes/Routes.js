@@ -5,11 +5,11 @@ import {
   Route,
   Redirect,
 } from 'react-router-dom'
-import Header from '../custom/Header'
+import Header from '../pages/Header'
+import Footer from '../pages/Footer'
 
-const Home = lazy(() => import('../pages/Home/Home'))
-const LearnMore = lazy(() => import('../pages/LearnMore/LearnMore'))
-const PageNotFound = lazy(() => import('../pages/PageNotFound/PageNotFound'))
+const Cart = lazy(() => import('../pages/Cart'))
+const PageNotFound = lazy(() => import('../pages/PageNotFound'))
 
 const Routes = () => {
   return (
@@ -17,8 +17,7 @@ const Routes = () => {
       <Header />
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/learnMore/:id" component={LearnMore} />
+          <Route exact path="/" component={Cart} />
           <Route path="/404" component={PageNotFound} />
           {/* Default to "404" for unknown routes */}
           <Redirect to="/404" />

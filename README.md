@@ -1,6 +1,6 @@
 ## Summary
 
-This is a simple ReactJS frontend application demonstrating some latest features and tools.
+This is a simple ReactJS frontend application demonstrating Mini-Cart Application.
 
 ## Tools & Libraries used
 
@@ -9,15 +9,16 @@ This is a simple ReactJS frontend application demonstrating some latest features
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [React Query](https://react-query.tanstack.com/)
 - [React Router](https://reactrouter.com/)
+- [React Popup](https://www.npmjs.com/package/reactjs-popup)
 - [Material UI](https://mui.com/)
 - [Styled Components](https://styled-components.com/)
 - [Axios](https://axios-http.com/)
-- [Infinite scroll](https://www.npmjs.com/package/react-infinite-scroll-component)
 - [Webpack](https://webpack.js.org/)
 - [Babel](https://babeljs.io/)
 - [Eslint](https://eslint.org/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/)
+- [Accessibility](https://reactjs.org/docs/accessibility.html)
 
 ## Project Setup
 

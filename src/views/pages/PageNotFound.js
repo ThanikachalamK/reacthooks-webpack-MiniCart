@@ -70,4 +70,3 @@ PageNotFound.propTypes = {
 }
 
 export default PageNotFound
-
